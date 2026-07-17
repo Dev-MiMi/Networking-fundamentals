@@ -143,4 +143,7 @@ Switch(config-if-range)# switchport access vlan [30/40/50]
 - Native VLAN mismatches between router NIM ports and switches must be resolved by matching VLANs on switch ports
 - `no ip domain-lookup` prevents the router from freezing on mistyped commands
 - IP Phones in Packet Tracer use DHCP only — no static IP option exists
-- The 7960 IP Phone model has known limitations with DHCP through the router
+- The 7960 IP Phone model has known limitations with DHCP through the router NIM-based VLAN setups in Packet Tracer
+- Wireless devices require a physical module swap before connecting to an access point
+- Separating network segments improves security — each segment is isolated but reachable through the router
+- This topology directly implements Section 1's recommendation of five separate company networks
